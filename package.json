@@ -1,0 +1,51 @@
+{
+  "name": "@tsingwong/pkg-name",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.26.2",
+  "description": "",
+  "keywords": [],
+  "author": "tsingwong<tsongwoong@163.com>",
+  "homepage": "https://github.com/tsingwong/pkg-name#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsingwong/pkg-name.git"
+  },
+  "bugs": "https://github.com/tsingwong/pkg-name/issues",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src",
+    "start": "nodemon --exec ts-node src/index.ts --project ./tsconfig.json",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-alloy": "^4.9.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsup": "^6.5.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.28.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
