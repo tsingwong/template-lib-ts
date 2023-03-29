@@ -7,5 +7,3 @@ export const three = 3
 console.log(one)
 
 console.log(add(one, two))
-
-x = 123
