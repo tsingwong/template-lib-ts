@@ -34,7 +34,7 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
+    "@types/node": "^20.1.4",
     "lint-staged": "^13.2.0",
     "nodemon": "^2.0.22",
     "rome": "^12.0.0",
