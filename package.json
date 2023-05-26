@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.11.9",
+    "@types/node": "^20.2.4",
     "lint-staged": "^13.2.2",
     "nodemon": "^2.0.22",
     "rome": "^12.1.0",
