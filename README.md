@@ -5,9 +5,9 @@
 ## Feature
 
 - Use [tsup](https://tsup.egoist.dev/) to build
-- Use [nodemon](https://nodemon.io) and [ts-node](https://typestrong.org/ts-node/) to development
+- Use [nodemon](https://nodemon.io) and [tsx](https://tsx.is/) to development
 - Use [vitest](https://vitest.dev/) to test
-- Use [EsLint](https://eslint.org/), [Prettier](https://prettier.io/) to lint and format
+- Use [biome](https://biomejs.dev/) to lint and format
 
 ## Getting started
 
