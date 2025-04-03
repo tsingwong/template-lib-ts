@@ -1,9 +1,5 @@
-import add from './libs/add'
+import add from './libs/add';
 
-export const one = 1
-export const two = 2
-export const three = 3
+import subtraction from './libs/subtraction';
 
-console.log(one)
-
-console.log(add(one, two))
+export {add, subtraction};
