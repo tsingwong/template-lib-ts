@@ -78,7 +78,7 @@
     "parcel-namer-rewrite": "2.10.3-rc.2",
     "simple-git-hooks": "^2.12.1",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "vitest": "^3.1.1",
     "wireit": "^0.14.11"
   },
