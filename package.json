@@ -74,7 +74,7 @@
     "dprint": "^0.49.1",
     "lint-staged": "^15.5.1",
     "nodemon": "^3.1.10",
-    "parcel": "^2.14.4",
+    "parcel": "^2.15.0",
     "parcel-namer-rewrite": "2.10.3-rc.2",
     "simple-git-hooks": "^2.13.0",
     "tsx": "^4.19.3",
