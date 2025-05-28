@@ -21,8 +21,8 @@ importers:
         specifier: 2.15.2
         version: 2.15.2(@parcel/core@2.14.4(@swc/helpers@0.5.15))
       '@parcel/transformer-typescript-types':
-        specifier: 2.14.4
-        version: 2.14.4(@parcel/core@2.14.4(@swc/helpers@0.5.15))(typescript@5.8.3)
+        specifier: 2.15.2
+        version: 2.15.2(@parcel/core@2.14.4(@swc/helpers@0.5.15))(typescript@5.8.3)
       '@tsconfig/node22':
         specifier: ^22.0.1
         version: 22.0.1
@@ -851,14 +851,14 @@ packages:
     resolution: {integrity: sha512-iqnyvgGmwu4wNh+khEBkMEu1hAGZWnc7/xQnhiuQBAcoy5qGNEjyVUv6PbMLWWAVK/0PjqV4FaB2deXBYKeW0A==}
     engines: {node: '>= 16.0.0', parcel: ^2.14.4}
 
-  '@parcel/transformer-typescript-types@2.14.4':
-    resolution: {integrity: sha512-tq1KBD45SX1bQ2aP3MKoDA3EFX0dus8w/GTUOt03rIR+qDCLg4Y7MSR8J7QG26uic44+XX/IfwM6Gy8I3Rf3pQ==}
-    engines: {node: '>= 16.0.0', parcel: ^2.14.4}
+  '@parcel/transformer-typescript-types@2.15.2':
+    resolution: {integrity: sha512-fEHw2ONaSPmWHCwtKx8MEc6zELDoAwxHoHFe0uhuMWBERkM2Ntgig7TEl8dQ0Y2UrQdOnPrJlsKu6TsPmr02+g==}
+    engines: {node: '>= 16.0.0', parcel: ^2.15.2}
     peerDependencies:
       typescript: '>=3.0.0'
 
-  '@parcel/ts-utils@2.14.4':
-    resolution: {integrity: sha512-HKBd1Nardh2S7IJxdpxel+w6Yp/6e/q3Bl3eFejye0tZpkb4wZeypfzIG1OSTniPDdlYPQwbzCSxBa5quQMOqw==}
+  '@parcel/ts-utils@2.15.2':
+    resolution: {integrity: sha512-xdehXMsxjs56+vGamD3vKAO+e8cbUlxUOFPCVz6nuvQ9KfQ+PgpLQwPuPvvGdDkj75YbzCJks19C9lvpIg251g==}
     engines: {node: '>= 16.0.0'}
     peerDependencies:
       typescript: '>=3.0.0'
@@ -1493,8 +1493,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  detect-libc@2.0.3:
-    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
+  detect-libc@2.0.4:
+    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
     engines: {node: '>=8'}
 
   dom-serializer@1.4.1:
@@ -3624,20 +3624,20 @@ snapshots:
       - '@parcel/core'
       - napi-wasm
 
-  '@parcel/transformer-typescript-types@2.14.4(@parcel/core@2.14.4(@swc/helpers@0.5.15))(typescript@5.8.3)':
+  '@parcel/transformer-typescript-types@2.15.2(@parcel/core@2.14.4(@swc/helpers@0.5.15))(typescript@5.8.3)':
     dependencies:
-      '@parcel/diagnostic': 2.14.4
-      '@parcel/plugin': 2.14.4(@parcel/core@2.14.4(@swc/helpers@0.5.15))
+      '@parcel/diagnostic': 2.15.2
+      '@parcel/plugin': 2.15.2(@parcel/core@2.14.4(@swc/helpers@0.5.15))
       '@parcel/source-map': 2.1.1
-      '@parcel/ts-utils': 2.14.4(typescript@5.8.3)
-      '@parcel/utils': 2.14.4
+      '@parcel/ts-utils': 2.15.2(typescript@5.8.3)
+      '@parcel/utils': 2.15.2
       nullthrows: 1.1.1
       typescript: 5.8.3
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
 
-  '@parcel/ts-utils@2.14.4(typescript@5.8.3)':
+  '@parcel/ts-utils@2.15.2(typescript@5.8.3)':
     dependencies:
       nullthrows: 1.1.1
       typescript: 5.8.3
@@ -4256,7 +4256,7 @@ snapshots:
 
   detect-libc@1.0.3: {}
 
-  detect-libc@2.0.3: {}
+  detect-libc@2.0.4: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -4737,7 +4737,7 @@ snapshots:
 
   lightningcss@1.29.3:
     dependencies:
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
     optionalDependencies:
       lightningcss-darwin-arm64: 1.29.3
       lightningcss-darwin-x64: 1.29.3
@@ -4914,11 +4914,11 @@ snapshots:
 
   node-gyp-build-optional-packages@5.1.1:
     dependencies:
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
 
   node-gyp-build-optional-packages@5.2.2:
     dependencies:
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
     optional: true
 
   node-object-hash@2.3.10: {}
