@@ -64,7 +64,7 @@
   },
   "devDependencies": {
     "@gatsbyjs/parcel-namer-relative-to-cwd": "^2.14.0",
-    "@parcel/bundler-library": "^2.14.4",
+    "@parcel/bundler-library": "^2.15.2",
     "@parcel/config-default": "^2.14.4",
     "@parcel/packager-ts": "2.15.2",
     "@parcel/transformer-typescript-types": "2.14.4",
