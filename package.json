@@ -2,6 +2,7 @@
   "name": "@tsingwong/template-lib-ts",
   "version": "0.0.0",
   "description": "",
+  "type": "module",
   "keywords": [],
   "author": "tsingwong<tsongwoong@163.com>",
   "homepage": "https://github.com/tsingwong/template-lib-ts#readme",
